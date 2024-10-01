@@ -612,7 +612,8 @@ h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color:#1f1e1e;
 }
 
 @media (max-width: 1199px) {
@@ -676,7 +677,7 @@ h6 {
 .sidebar-nav .nav-heading {
   font-size: 11px;
   text-transform: uppercase;
-  color: #899bbd;
+  color: #f4f6f9;
   font-weight: 600;
   margin: 10px 0 5px 15px;
 }
@@ -686,9 +687,9 @@ h6 {
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: #4154f1;
+  color: white;
   transition: 0.3;
-  background: #f6f9ff;
+  background-color:#2c2b2b;
   padding: 10px 15px;
   border-radius: 4px;
 }
@@ -696,25 +697,30 @@ h6 {
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: white;
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: #012970;
-  background: #fff;
+  /*color: #012970;
+  background: #fff;*/
+  color: rgb(215, 210, 210);
+  background-color: #1f1e1e;
 }
 
 .sidebar-nav .nav-link.collapsed i {
-  color: #899bbd;
+  color: rgb(227, 221, 221);
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
-  background: #f6f9ff;
+  /*color: #4154f1;
+  background: #f6f9ff;*/
+  color: white;
+  background-color:#413f3f;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  /*color: #4154f1;*/
+  color: white;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -737,7 +743,7 @@ h6 {
   align-items: center;
   font-size: 14px;
   font-weight: 600;
-  color: #012970;
+  color: white;
   transition: 0.3;
   padding: 10px 0 10px 40px;
   transition: 0.3s;
@@ -752,11 +758,11 @@ h6 {
 
 .sidebar-nav .nav-content a:hover,
 .sidebar-nav .nav-content a.active {
-  color: #4154f1;
+  color: white;
 }
 
 .sidebar-nav .nav-content a.active i {
-  background-color: #4154f1;
+  background-color: white;
 }
 
 /*--------------------------------------------------------------
@@ -766,12 +772,12 @@ h6 {
 .dashboard .filter {
   position: absolute;
   right: 0px;
-  top: 15px;
+  top: 5px;
 }
 
 .dashboard .filter .icon {
   color: #aab7cf;
-  padding-right: 20px;
+  padding-right: 15px;
   padding-bottom: 5px;
   transition: 0.3s;
   font-size: 16px;
@@ -959,7 +965,19 @@ h6 {
   border-radius: 5px;
   max-width: 60px;
 }
-
+#kpiLegend div {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 14px;
+}
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  border-radius: 100%;
+}
 /*--------------------------------------------------------------
 # Icons list page
 --------------------------------------------------------------*/
